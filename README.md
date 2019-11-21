@@ -16,22 +16,22 @@ Hijennan nedanför så föli tabeller yvi verb å substantiv relatera ti git, hu
 | push        | pusha          | skuff        |
 | fetch       | fetcha         | hämt         |
 | branch      | brancha        | fögrein      |
-| commit      | commita        | förbinda      |
-| rebase      | rebasa         | ympa          |
-| merge       | merga          | sammanfoga    |
-| squash      | squasha        |           |
+| commit      | commita        | förbind?    |
+| rebase      | rebasa         | ymp?          |
+| merge       | merga          | kombineer?   |
+| squash      | squasha        | mos?     |
 | stash       | stasha         | gööm         |
 | tag         | tagga          | märk         |
-| cherry-pick | cherry-picka   | plocka russin |
-| amend       | amenda         | rätta till    |
-| blame       | blamea         | klandra       |
+| cherry-pick | cherry-picka   | lingon-plock? |
+| amend       | amenda         | rätt teel    |
+| blame       | blamea         | skyll på     |
 
 | Substantiv   | Nuvarand bruk | Föslaag     |
 |--------------|----------------|-------------|
 | git          | git            | dåkäl       |
 | repository   | repo           | liidär   |
 | branch       | branch         | grein        |
-| commit       | commit         | förbindelse |
+| commit       | commit         | förbindels? |
 | pull request | pull request   | röck |
 | stash        | stash          | göömo       |
 | tag          | tagg           | märk       |
