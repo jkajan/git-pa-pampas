@@ -1,6 +1,6 @@
 # git-pa-pampas
 
-Hanje repon (elo heje `liidre`) jir en variant av [bjorne](https://github.com/bjorne)s [Git på svenska](https://github.com/bjorne/git-pa-svenska/), men iställe för rikssvensk så jir e på enda rätta versionin ååv svensk, he vill säg Pampasdialekt.
+Hanje repon (elo heje `liidre`) jir en variant av [bjorne](https://github.com/bjorne)s [Git på svenska](https://github.com/bjorne/git-pa-svenska/), men iställe för rikssvensk så jir e på enda rätta versionin ååv svensk, he vill säg Pampasdialekt. Mästargreinin jir nöög på Replotdialekt (elo nainting tiidååt iallafall), om man känder fö ti lag en egen versioun enlit nain annin dialekt jir e bara ti lag en ny grein å skick en röckföfrågan.
 
 ## Introduktioun
 
@@ -12,12 +12,14 @@ Hijennan nedanför så föli tabeller yvi verb å substantiv relatera ti git, hu
 
 | Verb        | Nuvarand bruk | Föslaag       |
 |-------------|----------------|---------------|
+| add         | adda           | lägg teel |
+| init         | inita           | grund |
 | pull        | pulla          | röck, knöck, drag        |
 | push        | pusha          | skuff        |
 | fetch       | fetcha         | hämt         |
 | branch      | brancha        | fögrein      |
 | commit      | commita        | lov    |
-| rebase      | rebasa         | ymp?          |
+| rebase      | rebasa         | ymp          |
 | merge       | merga          | aväl   |
 | squash      | squasha        | mos     |
 | stash       | stasha         | gööm         |
@@ -25,6 +27,7 @@ Hijennan nedanför så föli tabeller yvi verb å substantiv relatera ti git, hu
 | cherry-pick | cherry-picka   | lingonplock |
 | amend       | amenda         | rätt teel    |
 | blame       | blamea         | beskyll     |
+| checkout       | checkouta         | byyt     |
 
 | Substantiv   | Nuvarand bruk | Föslaag     |
 |--------------|----------------|-------------|
@@ -32,13 +35,13 @@ Hijennan nedanför så föli tabeller yvi verb å substantiv relatera ti git, hu
 | repository   | repo           | liidär   |
 | branch       | branch         | grein        |
 | commit       | commit         | lov |
-| pull request | pull request   | röck |
+| pull request | pull request   | röckföfrågan |
 | stash        | stash          | göömo       |
 | tag          | tagg           | märk       |
 
 ## Exempäl
 
-- Iss du röck greinin ja jyst ympa å skuff ti github?
+- Iss du röck greinin ja jyst ympa å skuffar ti github?
 - Ja fögreina alldeles jyst och lova ändringan från göömon miin täär.
 - Skicka en röckförfrågan tå du jir färdi me avlin!    
 - Saakran, jag råka våldsskuff mot mästar-greinin.. D:
@@ -46,20 +49,6 @@ Hijennan nedanför så föli tabeller yvi verb å substantiv relatera ti git, hu
 
 ## Dagligt bruk
 
-Hije föli en nagär kommandoradskommandon för att sätt upp en pampesisk
-gitmiljö. Avsaknaden av svenska tecken i namnen berour på en brist i git
-(fundéer på att förbäter mjukvaron å skick en röckförfrågan!). Följand
-kommandon ändrar `~/.gitconfig`in diin och kommer att verk globalt.
+I liidre finns ett skript (`kör.sh`), som lagar alla alias åt de automatiskt. Skripte läser från `kodourd.csv` och lagar basera på he antingen ett `git alias` elo en ny fil `/bin/git-$alias` ifall oule innehaalder icke-ASCII-karaktärer (å, ä, ö).
 
-    git config --global alias.drag pull
-    git config --global alias.skuff push
-    git config --global alias.grein branch
-    git config --global alias.fogrein branch
-    git config --global alias.lov commit
-    git config --global alias.ymp rebase
-    git config --global alias.aval merge
-    git config --global alias.goom stash
-    git config --global alias.beskyll blame
-    git config --global alias.mark tag
-
-    alias dåkäl=git
+	sudo ./kör.sh
