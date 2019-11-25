@@ -16,49 +16,47 @@ Hijennan nedanför så föli tabeller yvi verb å substantiv relatera ti git, hu
 | push        | pusha          | skuff        |
 | fetch       | fetcha         | hämt         |
 | branch      | brancha        | fögrein      |
-| commit      | commita        | förbind?    |
+| commit      | commita        | lov    |
 | rebase      | rebasa         | ymp?          |
 | merge       | merga          | kombineer?   |
-| squash      | squasha        | mos?     |
+| squash      | squasha        | mos     |
 | stash       | stasha         | gööm         |
 | tag         | tagga          | märk         |
-| cherry-pick | cherry-picka   | lingon-plock? |
+| cherry-pick | cherry-picka   | lingonplock |
 | amend       | amenda         | rätt teel    |
-| blame       | blamea         | skyll på     |
+| blame       | blamea         | beskyll     |
 
 | Substantiv   | Nuvarand bruk | Föslaag     |
 |--------------|----------------|-------------|
 | git          | git            | dåkäl       |
 | repository   | repo           | liidär   |
 | branch       | branch         | grein        |
-| commit       | commit         | förbindels? |
+| commit       | commit         | lov |
 | pull request | pull request   | röck |
 | stash        | stash          | göömo       |
 | tag          | tagg           | märk       |
 
-## Exempel
+## Exempäl
 
 TODO:
-    - Kan du rycka grenen jag just ympade och knuffa till github?
+    - Iss du röck greinin ja jyst ympa å skuff ti github?
 
-    - Jag förgrenade alldeles nyss och förband ändringarna från min gömma där.
+    - Ja fögreina alldeles jyst och lova ändringan från göömon miin täär.
 
-    - Skicka en ryckbegäran när du är färdig med sammanfogningen!
-
-    - Låt oss plocka russin från mäster-grenen.
+    - Skicka en röckförfrågan tå du jir färdi me kombinerase!
     
-    - Hoppsan, jag råkade visst kraftknuffa mot mäster-grenen.. D:
+    - Saakran, jag råka våldsskuff mot mästar-greinin.. D:
 
-    - Mosa dina förbindelser innan du sammanfogar.
+    - Mos loven diin innan du kombinerar.
 
 ## Dagligt bruk
 
-TODO:
-Nedan följer en rad kommandoradskommandon för att sätta upp en svensk
-gitmiljö. Avsaknaden av svenska tecken i täcknamnen beror på en brist i git
-(överväg att förbättra mjukvaran och skicka en ryckbegäran!). Följande
-kommandon ändrar din `~/.gitconfig` och kommer att verka globalt.
+Hije föli en nagär kommandoradskommandon för att sätt upp en pampesisk
+gitmiljö. Avsaknaden av svenska tecken i namnen berour på en brist i git
+(fundéer på att förbäter mjukvaron å skick en röckförfrågan!). Följand
+kommandon ändrar `~/.gitconfig`in diin och kommer att verk globalt.
 
+TODO:
     git config --global alias.ryck pull
     git config --global alias.knuffa push
     git config --global alias.gren branch
