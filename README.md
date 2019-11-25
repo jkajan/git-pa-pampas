@@ -12,13 +12,13 @@ Hijennan nedanför så föli tabeller yvi verb å substantiv relatera ti git, hu
 
 | Verb        | Nuvarand bruk | Föslaag       |
 |-------------|----------------|---------------|
-| pull        | pulla          | röck, knöck         |
+| pull        | pulla          | röck, knöck, drag        |
 | push        | pusha          | skuff        |
 | fetch       | fetcha         | hämt         |
 | branch      | brancha        | fögrein      |
 | commit      | commita        | lov    |
 | rebase      | rebasa         | ymp?          |
-| merge       | merga          | kombineer?   |
+| merge       | merga          | aväl   |
 | squash      | squasha        | mos     |
 | stash       | stasha         | gööm         |
 | tag         | tagga          | märk         |
@@ -38,16 +38,11 @@ Hijennan nedanför så föli tabeller yvi verb å substantiv relatera ti git, hu
 
 ## Exempäl
 
-TODO:
-    - Iss du röck greinin ja jyst ympa å skuff ti github?
-
-    - Ja fögreina alldeles jyst och lova ändringan från göömon miin täär.
-
-    - Skicka en röckförfrågan tå du jir färdi me kombinerase!
-    
-    - Saakran, jag råka våldsskuff mot mästar-greinin.. D:
-
-    - Mos loven diin innan du kombinerar.
+- Iss du röck greinin ja jyst ympa å skuff ti github?
+- Ja fögreina alldeles jyst och lova ändringan från göömon miin täär.
+- Skicka en röckförfrågan tå du jir färdi me avlin!    
+- Saakran, jag råka våldsskuff mot mästar-greinin.. D:
+- Mos loven diin innan du avlar.
 
 ## Dagligt bruk
 
@@ -56,17 +51,15 @@ gitmiljö. Avsaknaden av svenska tecken i namnen berour på en brist i git
 (fundéer på att förbäter mjukvaron å skick en röckförfrågan!). Följand
 kommandon ändrar `~/.gitconfig`in diin och kommer att verk globalt.
 
-TODO:
-    git config --global alias.ryck pull
-    git config --global alias.knuffa push
-    git config --global alias.gren branch
-    git config --global alias.forgrena branch
-    git config --global alias.forbinda commit
-    git config --global alias.ympa rebase
-    git config --global alias.sammanfoga merge
-    git config --global alias.gom stash
-    git config --global alias.klandra blame
-    git config --global alias.marke tag
+    git config --global alias.drag pull
+    git config --global alias.skuff push
+    git config --global alias.grein branch
+    git config --global alias.fogrein branch
+    git config --global alias.lov commit
+    git config --global alias.ymp rebase
+    git config --global alias.aval merge
+    git config --global alias.goom stash
+    git config --global alias.beskyll blame
     git config --global alias.mark tag
 
-    alias jävel=git
+    alias dåkäl=git
