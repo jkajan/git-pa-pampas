@@ -27,7 +27,8 @@ Hijennan nedanför så föli tabeller yvi verb å substantiv relatera ti git, hu
 | cherry-pick | cherry-picka   | lingonplock |
 | amend       | amenda         | rätt teel    |
 | blame       | blamea         | beskyll     |
-| checkout       | checkouta         | byyt     |
+| checkout       | checkouta         | luur     |
+| clone       | clonea         | kloun     |
 
 | Substantiv   | Nuvarand bruk | Föslaag     |
 |--------------|----------------|-------------|
@@ -43,7 +44,7 @@ Hijennan nedanför så föli tabeller yvi verb å substantiv relatera ti git, hu
 
 - Iss du röck greinin ja jyst ympa å skuffar ti github?
 - Ja fögreina alldeles jyst och lova ändringan från göömon miin täär.
-- Skicka en röckförfrågan tå du jir färdi me avlin!    
+- Skicka en röckförfrågan tå du jir färdi me avlin!
 - Saakran, jag råka våldsskuff mot mästar-greinin.. D:
 - Mos loven diin innan du avlar.
 
