@@ -1,6 +1,6 @@
 #!/bin/bash
 
-csvfil="./kodourd.csv"
+csvfil="$(dirname "$0")/kodourd.csv"
 while IFS=, read -r kommando oul
 do
 	if [[ $oul = *[![:ascii:]]* ]]; then
